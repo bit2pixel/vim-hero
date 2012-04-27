@@ -7,8 +7,8 @@ If you want to try it just run the ```setup.sh``` file after cloning the repo.
 
 **Some basic commands**:
 
-* Switch between tabs - forwards: ```CTRL + TAB```
-* Switch between tabs - backwards: ```CTRL + SHIFT + TAB```
+* Switch between tabs - forwards: ```CTRL + PAGE UP```
+* Switch between tabs - backwards: ```CTRL + PAGE DOWN```
 * Switch between splitted panes: First press ```CTRL + w```, after releasing press an ```ARROW``` key.
 
 **Plugins**:
