@@ -110,7 +110,7 @@ For beautiful video tutorials visit -> http://net.tutsplus.com/sessions/vim-esse
 Screenshot
 ----------
 
-<img src="https://github.com/rcakirerk/personalization/raw/master/vim_hero/vim_hero_screenshot.png">
+<img src="http://github.com/rcakirerk/vim-hero/raw/master/vim_hero_screenshot.png">
 
 Complete Repository List of Vim Hero Plugins
 --------------------------------------------
