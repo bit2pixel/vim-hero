@@ -107,6 +107,12 @@ For beautiful video tutorials visit -> http://net.tutsplus.com/sessions/vim-esse
 
     Press ```F7``` to toggle this behavior.
 
+* **Vim Toggle Mouse**:
+
+    Toggle mouse. When mouse is on, exploring files, objects and changing tabs is some a bit easier.
+
+    Press ```F6``` to toggle mouse.
+
 Screenshot
 ----------
 
@@ -122,7 +128,8 @@ Complete Repository List of Vim Hero Plugins
 * https://github.com/rstacruz/sparkup.git
 * https://github.com/msanders/snipmate.vim.git
 * https://github.com/scrooloose/nerdtree.git
-* https://github.com/majutsushi/tagbar
+* https://github.com/majutsushi/tagbar.git
 * https://github.com/Lokaltog/vim-powerline.git
 * https://github.com/scrooloose/syntastic.git
 * https://github.com/Townk/vim-autoclose.git
+* https://github.com/rcakirerk/vim-togglemouse.git
