@@ -17,7 +17,7 @@ nmap <F7> :AutoCloseToggle<CR>
 nmap <F10> :NERDTreeToggle<CR>
 nmap <C-N><C-N> :set invnumber <CR>
 nmap <C-T> :TagbarToggle <CR>
-
+"let g:Powerline_symbols = 'fancy'
 " pathogen loader
 call pathogen#infect()
 
@@ -52,8 +52,6 @@ set ts=4
 set sta
 set sts=4
 set expandtab
-
-colorscheme renan
 
 if v:lang =~ "^ko"
    set fileencodings=euc-kr
@@ -129,4 +127,4 @@ map j gj
 " Enable filetype stuff
 filetype plugin indent on
 
-
+colorscheme hero

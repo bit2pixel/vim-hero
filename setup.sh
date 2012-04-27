@@ -16,7 +16,8 @@ echo " - Creating ~/.vim/syntax"
 mkdir -p ~/.vim/syntax
 
 echo " - Installing new color scheme..."
-cp -f ./hero.vim ~/.vim/syntax/
+mkdir -p ~/.vim/colors
+cp -f ./hero.vim ~/.vim/colors/
 
 echo
 echo " - Downloading plugins..."
