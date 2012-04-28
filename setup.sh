@@ -33,6 +33,9 @@ echo
 echo " - Installing pathogen..."
 cp -f ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 
+# Special action for sparkup plugin
+mv -f ~/.vim/bundle/sparkup/vim/ftplugin ~/.vim/
+
 echo
 echo "Your new Vim should be working now. Have fun."
 echo
