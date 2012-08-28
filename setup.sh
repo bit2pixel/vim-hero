@@ -17,14 +17,14 @@ mkdir -p ~/.vim/syntax
 
 echo " - Installing new color scheme..."
 mkdir -p ~/.vim/colors
-cp -f ./hero.vim ~/.vim/colors/
+cp -rf ./hero.vim ~/.vim/colors/
 
 echo
 echo " - Downloading plugins..."
 echo
 
-SCRIPT=`readlink -f $0`
-SCRIPTPATH=`dirname $SCRIPT`
+#SCRIPT=`readlink -n $0`
+SCRIPTPATH=/Users/renan/workspace/vim-hero/
 
 cd ~/.vim/bundle/
 while read line; do git clone $line; done < $SCRIPTPATH/vim_hero_plugins
