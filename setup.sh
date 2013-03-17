@@ -1,4 +1,7 @@
+#!/bin/sh
 # AUTHOR: Renan Cakirek <mail at ren.io>
+
+os=`uname`
 
 echo " - Copying the new .vimrc file to ~/"
 cp -f .vimrc ~/
@@ -23,8 +26,15 @@ echo
 echo " - Downloading plugins..."
 echo
 
-#SCRIPT=`readlink -n $0`
-SCRIPTPATH=/Users/renan/workspace/vim-hero/
+if [ "$os" == "Linux" ] 
+then
+    SCRIPTPATH=`readlink -n $0`
+fi
+
+if [ "$os" == "Darwin" ] 
+then
+    SCRIPTPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+fi
 
 cd ~/.vim/bundle/
 while read line; do git clone $line; done < $SCRIPTPATH/vim_hero_plugins
